@@ -1,0 +1,229 @@
+@charset "UTF-8";
+
+:root{
+    --cor0: #84E1AD;
+    --cor1: #39CD7B;
+    --cor2: #2C9D5E;
+    --cor3: #227646;
+    --cor4: #1C633B;
+}
+
+@font-face {
+    font-family: Titulo;
+    src: url(fontes/Bison-Bold.ttf) format(truetype);
+    font-weight: normal;
+}
+@font-face{
+    font-family: Titulo2;
+    src: url(fontes/idroid.otf) format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    margin: 0;
+    max-width: auto;
+}
+
+header{
+    margin: 10;
+    padding: 0;
+    color:white;
+    text-align: center;
+    background-image: linear-gradient(var(--cor0), var(--cor1), var(--cor2), var(--cor3), var(--cor4));
+}
+
+header > h1{
+    margin: 0;
+    padding: 25px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-family: Titulo;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.39);
+}
+
+header > p{
+    margin: 0 auto 20px auto;
+    text-align: center;
+}
+
+#menu{
+    text-align: left;
+    padding: 10px;
+    box-shadow: 0 7px 9px rgba(0, 0, 0, 0.308);
+}
+
+#menu>a{
+    margin: 5px;
+    padding: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    transition: 0.5s;
+}
+
+#menu>a:hover{
+    background-color: var(--cor1);
+    color: var(--cor4)
+}
+main{
+    margin: auto;
+    padding-bottom: 10px;
+    background-color: var(--cor0);
+}
+
+main p{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 1.05em;
+    line-height: 1.8em;
+
+}
+
+article{
+    padding: 20px;
+    margin: auto;
+    background-color: white;
+    min-width: 260px;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.356);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+article h1,h2{
+    font-family: Titulo2;
+    color: var(--cor4);
+}
+
+article>h2{
+    background-image: linear-gradient( 45deg,var(--cor0), #fff);
+}
+
+article aside{
+    border-width: 0px 15px;
+    background-color: var(--cor0);
+    padding:0px;
+    margin: 0;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.247);
+}
+
+aside h3{
+    color: white;
+    background-color: var(--cor2);
+    padding: 10px 0px 10px 5px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+aside p {
+    margin: 10px 16px 10px 5px;
+}
+
+aside ul{
+    list-style-position: inside;
+    list-style-type: '\2714\00A0\00A0';
+    /* Essa configuração acima não é compatível com todos os navegadores */
+    columns: 2;
+}
+
+article strong{
+    font-weight: bold;
+    color:var(--cor4);
+}
+
+img{
+    width: 100%;
+}
+
+div.video{
+    background-color: var(--cor4);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 56.5%;
+    position: relative;
+    
+}
+
+div.video > iframe{
+    position: absolute;
+    top:5%;
+    left:5%;
+    width: 90%;
+    height: 90%;
+}
+#foto1{
+    text-align: center;
+}
+#foto3{
+    width: 50%;  /* Posso colocar max-widht: **px   É uma solução melhor */
+    margin:auto;
+    display: block;
+}
+
+/* .lista{
+    display:inline-block;
+    margin-left: 5%;
+    margin-right: 10%;
+    margin-top: 0;
+    margin-bottom: 0;
+} */
+
+ul abbr{
+    text-decoration: underline; 
+}
+
+.link{
+    color:var(--cor4);
+    text-decoration: none;
+    font-weight: bold;
+    background-color:var(--cor0);
+    padding: 2px 6px;
+}
+
+.link:hover{
+    color:var(--cor3);
+    text-decoration: underline;
+}
+
+.link::after{
+    content: ' 🔗';
+}
+
+#linkfoo{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    transition: 100ms;
+}
+
+#linkfoo:hover{
+    color:white;
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+#strongfoo{
+    color:white;
+}
+
+/* li{
+    list-style-image: ☚;
+    list-style-image: "imagens/heavy.png";
+} */
+
+
+footer{
+    color:white;
+    background-color: var(--cor4);
+    margin: auto;
+    padding: 8px;
+    text-align: center;
+}
+footer p{
+    margin: 0;
+    padding: 0
+}
