@@ -3,4 +3,4 @@
 É o meu primeiro repositório público, espero que gostem.</p> 
 
 # Mini-projeto
-<p><a href="index">Clique aqui</a></p>
+<p><a href="index.html">Clique aqui</a></p>
