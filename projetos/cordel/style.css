@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Titulo1;
+    src: url(fontes/GoogleFonts-PassionOne-Regular.ttf);
+}
+@font-face {
+    font-family: "Fonte padrao";
+    src: url(fontes/GoogleFonts-Sriracha-Regular.ttf);
+}
+body{
+    margin: 0;
+    font-family: "Fonte padrao";
+}
+
+header{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+header h1{
+    margin: 0 auto;
+    padding: 50px;
+    padding-bottom: 0;
+    font-family: Titulo1;
+    font-variant: small-caps;
+    font-size: 10vw;
+    font-weight: bold;
+}
+
+header p{
+    margin: 0px;
+    padding-top: 0;
+    padding-bottom: 50px;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+section  p{
+/*     font-weight: 600;
+ */    font-size: 3.5vw;
+    line-height: 2em;
+    margin-left: 20px;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;/* 
+    min-height: 400px; */
+}
+
+section.imagem{
+    width: 100vh;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+#p1{
+    background-image: url(imagens/background001.jpg);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right center;
+    color: white;
+    padding: 10px 0;
+}
+
+#p1 > p{
+    background-color: rgba(0, 0, 0, 0.432);
+/*     
+    max-width: 600px;
+*/    
+    width: 41vw;
+    color: white;
+    padding: 10px;
+}
+
+#p2{
+    background-image: url(imagens/background002.jpg);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right center;
+    padding: 10px 0;
+/*     
+    background-color: rgba(0, 0, 0, 0.473);
+ */
+}
+
+#p2 > p{
+    background-color: rgba(0, 0, 0, 0.432);
+    color: white;
+    width: 42vw;
+    /* 
+    max-width: 600px; */
+    padding: 10px;
+}
+
+footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+footer p {
+    margin: 0
+}
+a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
