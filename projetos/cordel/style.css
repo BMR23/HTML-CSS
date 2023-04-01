@@ -28,7 +28,7 @@ header h1{
     padding-bottom: 0;
     font-family: Titulo1;
     font-variant: small-caps;
-    font-size: 10vw;
+    font-size: clamp(2.5em, 10vw, 8em);
     font-weight: bold;
 }
 
@@ -36,6 +36,7 @@ header p{
     margin: 0px;
     padding-top: 0;
     padding-bottom: 50px;
+    
 }
 
 header a{
@@ -45,6 +46,7 @@ header a{
 
 section  p{
     font-size: clamp(1em, 0.65em + 1.7vw, 2em);
+    padding-bottom: 2em;
     line-height: 2em;
     margin-left: 20px;
 }
