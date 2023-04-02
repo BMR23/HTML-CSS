@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Not hover</title>
+    <style>
+        body{
+            display: flex;
+            background-color: black;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            display: flex;
+        }
+        .item{
+            display: inline-block;
+            padding: 10vw;
+            margin: 5px;
+            background-color: white;
+            transition: 0.35s;
+            cursor: pointer;
+        }
+        a{
+            display: flex;
+            text-decoration: none;
+        }
+        .container:hover  .item:not(:hover){
+            transform: scale(0.9);
+            opacity: .4;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <a href="https://bmr23.github.io/HTML-CSS/" target="_blank">
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+        </a>
+    </div>
+</body>
+</html>
