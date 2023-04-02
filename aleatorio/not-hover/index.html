@@ -9,9 +9,10 @@
         body{
             display: flex;
             background-color: black;
-            height: 100vh;
+            height: 97vh;
             align-items: center;
             justify-content: center;
+            flex-direction: column;
         }
         .container {
             display: flex;
@@ -29,20 +30,32 @@
             opacity: .4;
         }
         
+        p{
+            padding-top: 100px;
+            font-size: large;
+        }
         a{
-            display: flex;
+            color: white;
             text-decoration: none;
         }
+        a:hover{
+            color: white;
+            text-decoration: underline;
+        }
+        
     </style>
 </head>
 <body>
     <div class="container">
-        <a href="https://bmr23.github.io/HTML-CSS/" target="_blank">
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-        </a>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>   
     </div>
+    <p>
+        <a href="https://bmr23.github.io/HTML-CSS/" target="_blank">
+            Volte ao repositório
+        </a>
+    </p>
 </body>
 </html>
