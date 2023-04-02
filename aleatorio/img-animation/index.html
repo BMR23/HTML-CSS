@@ -11,9 +11,11 @@
             height: 100vh;
             align-items: center;
             justify-content: center;
+            flex-direction: column;
             background-color: rgba(207, 252, 207, 0.884);
         }
         img{
+            display: block;
            transform: translateY(0px);
            animation: float 10s ease-in-out infinite; 
         }
@@ -31,9 +33,18 @@
                 transform: translateY(0px);
             }
         }
+        p{
+            padding-top: 100px;
+        }
     </style>
 </head>
 <body>
-    <img src="imagens/download.jpeg" alt="">
+    <img src="imagens/download.jpeg" alt="Imagem em movimento">
+
+    <p>
+        <a href="https://bmr23.github.io/HTML-CSS/" target="_blank">
+            Volte ao repositório
+        </a>
+    </p>
 </body>
 </html>
