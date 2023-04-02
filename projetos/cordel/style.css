@@ -76,10 +76,9 @@ section.imagem{
 
 #p1 > p{
     background-color: rgba(0, 0, 0, 0.432);
-
-    /* width: 28vw; */
-    width: calc(19vw + 8em);
-    max-width: 400px;
+    display: inline-block;
+    /* width: calc(19vw + 8em);
+    max-width: 400px; */
     color: white;
     padding: 10px;
 }
@@ -102,10 +101,12 @@ section.imagem{
     color: white;
     /* min-width: 240px;    
     max-width: 28vw; */
-    width: calc(19vw + 8em);
-/* 
-    width: 28vw; */
-    max-width: 400px;
+    /* 
+    width: calc(19vw + 8em); */
+    /* 
+    width: 28vw; 
+    max-width: 400px;*/
+    display: inline-block;
     padding: 10px;
 }
 

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repara no balanço</title>
+    <style>
+        body{
+            display: flex;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(207, 252, 207, 0.884);
+        }
+        img{
+           transform: translateY(0px);
+           animation: float 10s ease-in-out infinite; 
+        }
+        @keyframes float {
+            0% {
+                transform: translateY(0px);
+            }
+            25% {
+                transform: translateY(30px);
+            }
+            75%{
+                transform: translateY(-30px)
+            }
+            100% {
+                transform: translateY(0px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <img src="imagens/download.jpeg" alt="">
+</body>
+</html>

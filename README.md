@@ -7,3 +7,8 @@
 
 # Projeto-cordel
 <p><a href="https://bmr23.github.io/HTML-CSS/projetos/cordel">Clique aqui</a></p>
+
+# Aleatorios
+<p><a href="https://bmr23.github.io/HTML-CSS/aleatorio/img-animation">Imagem em movimento</a></p>
+
+<p><a href="https://bmr23.github.io/HTML-CSS/aleatorio/not-hover">Passe o mouse neles</a></p>
