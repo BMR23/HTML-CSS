@@ -4,12 +4,12 @@ Projects and some of my studies on web development.
 ### Android Project 
  
 ![Photo of android project](projetos/android/imagens/demonstracao/foto-android.png)
-![link of android project](https://bmr23.github.io/HTML-CSS/projetos/android)
+<p><a href="https://bmr23.github.io/HTML-CSS/projetos/android" color="black">Click here</a></p>
 
 ### Cordel Project 
  
 ![Photo of cordel projeto](projetos/cordel/imagens/demonstracao/foto-cordel.png)
-![link of cordel project](https://bmr23.github.io/HTML-CSS/projetos/cordel)
+<p><a href="https://bmr23.github.io/HTML-CSS/projetos/cordel" color="black">Click here</a></p>
 
 ## 💾 Clone the repository:
 - Clone by Git: (_For this step you need Git installed_)
