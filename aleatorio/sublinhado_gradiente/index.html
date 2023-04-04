@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sublinhado Gradiente</title>
+    <style>
+        p{
+            line-height: 2em;
+            font-size: 1.1em;
+        }
+        .sublinhado{
+            cursor: pointer;
+            text-decoration: none;
+            background-image: linear-gradient(90deg, red,blue);
+            background-repeat: no-repeat;
+            background-size: 0% 3px;
+            background-position: left bottom;
+            font-weight: 900;
+            transition: background-size 0.5s ease;
+        }
+        .sublinhado:hover{
+            background-size: 100% 3px;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        <u class="sublinhado">
+            Dica CSS - Sublinhado Gradiente
+        </u>
+    </h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+        <u class="sublinhado">Eligendi neque veritatis sed laborum recusandae voluptates cumque soluta aut odit voluptas!</u>
+        Obcaecati voluptas sapiente libero at voluptates nam culpa maiores consequatur.</p>
+</body>
+</html>
