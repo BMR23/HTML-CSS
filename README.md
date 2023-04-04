@@ -16,7 +16,7 @@ Projects and some of my studies on web development.
 ```
 git clone https://github.com/BMR23/HTML-CSS.git
 ```
-- Or you can just download the zip file instead by clicking the button _Code_ and then _Download ZIP_ in this url: https://github.com/BMR23/HTML-CSS
+- Or you can just download the zip file instead by clicking the button _Code_ and then _Download ZIP_ in this url: <a href="https://github.com/BMR23/HTML-CSS">https://github.com/BMR23/HTML-CSS</a>
 <br>
 
 ## Author 
