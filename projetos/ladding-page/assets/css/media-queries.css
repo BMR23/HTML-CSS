@@ -24,7 +24,7 @@
         padding: 5rem 0;
         flex-direction: column;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-around;
         height: max-content;
     }
     .bg-color#intro .content-1{
