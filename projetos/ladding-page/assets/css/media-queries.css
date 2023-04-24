@@ -26,6 +26,8 @@
         align-items: center;
         justify-content: space-between;
         height: max-content;
+    }
+    .bg-color#intro .content-1{
         min-height: 85vh;
     }
     .bg-color .content-1 .bg-color-content-1 {
