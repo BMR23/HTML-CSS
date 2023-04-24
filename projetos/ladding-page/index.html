@@ -27,15 +27,21 @@
     <div onclick="fecharMenu()" id="fechaMenuCelular"></div>
 
     <script>
-      menuCss = document.getElementById('menu')
-      fechaMenuCelular = document.getElementById('fechaMenuCelular')
+      let menuCss = document.getElementById('menu')
+      let fechaMenuCelular = document.getElementById('fechaMenuCelular')
+      let contador = 0
       function abrirMenu(){
+        contador = 1
         menu.style.display = 'block'
         fechaMenuCelular.style.display = 'block'
       }
       function fecharMenu(){
-        menu.style.display = 'none'
-        fechaMenuCelular.style.display = 'none'
+        if (contador == 1){
+          contador = 0
+          menu.style.display = 'none'
+          fechaMenuCelular.style.display = 'none'
+        }
+        
       }
     </script>
 
@@ -54,7 +60,7 @@
     </aside>
 
     <main>
-        <section class="bg-color bg-coo" id="intro">
+        <section class="bg-color" id="intro">
                 <div class="content-1">
                     <div class="bg-color-content-1">
                         <h1>January bring us Firefox 85</h1>
@@ -237,6 +243,6 @@
       <p>Feito por <a href="https://github.com/BMR23">Breno Melo</a> baseado no projeto do professor <a href="https://beacons.ai/otaviomiranda">Otávio Miranda</a></p>
     </footer>
     <div class="circulo"></div>
-    <a class="back-to-top" href="#">➤</>
+    <a class="back-to-top" href="#">➤</>    
 </body>
 </html>
