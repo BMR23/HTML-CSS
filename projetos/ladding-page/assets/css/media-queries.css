@@ -169,11 +169,16 @@
     }
     
     .bg-color-white .content-2 .grid-two .gallery-img img{
-        
         padding-bottom: 15px;
     }
     .responsive-table{
         overflow-x: scroll;
-        
+    }
+    
+}
+
+@media(max-width:640px){
+    footer{
+        margin-bottom: 8rem;
     }
 }
