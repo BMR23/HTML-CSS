@@ -8,12 +8,12 @@ Projects and some of my studies on web development.
 
 ### Cordel Project 
  
-![Photo of cordel projeto](projetos/cordel/imagens/demonstracao/foto-cordel.png)
+![Photo of cordel project](projetos/cordel/imagens/demonstracao/foto-cordel.png)
 <p><a href="https://bmr23.github.io/HTML-CSS/projetos/cordel" color="black">Click here</a></p>
 
 ### Ladding Page Project 
  
-![Photo of ladding page projeto](projetos/ladding-page/imagens/demonstracao/foto-laddingPage.png)
+![Photo of ladding page project](projetos/ladding-page/assets/img/demonstracao/foto-laddingPage.png)
 <p><a href="https://bmr23.github.io/HTML-CSS/projetos/ladding-page" color="black">Click here</a></p>
 
 ## 💾 Clone the repository:
