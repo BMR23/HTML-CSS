@@ -27,12 +27,7 @@
         justify-content: center;
         height: max-content;
     }
-    .bg-color#intro .content-1{
-        min-height: 85vh;
-    }
-    .bg-color#intro .content-1 img{
-        padding-top: 15rem;
-    }
+    
     .bg-color .content-1 .bg-color-content-1 {
         width: 100%;
     }
@@ -41,7 +36,9 @@
         padding-bottom: 3rem;
         max-width: 100%;
     }
-    
+    .bg-color#intro .content-1{
+        min-height: 85vh;
+    }
     .bg-color .content-1 img {
         max-width: 700px;
         width: auto;
@@ -69,6 +66,12 @@
 @media(max-width:800px){
     .bg-color .content-1{
         padding: 0 0 4rem 0;
+    }
+    .bg-color#intro .content-1{
+        height: 85vh;
+    }
+    .bg-color#intro .content-1 img{
+        padding-top: 15rem;
     }
     .menu{
         display: none;
