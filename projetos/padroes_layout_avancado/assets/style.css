@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 66.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    display: grid;
+    grid-template-columns: 1fr min(1024px, 90%) 1fr;
+    gap: 2ch;
+    min-block-size: 100vh;
+}
+
+body > * { grid-column: 2; }
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.full-width{ grid-column: 1 / -1; }
+
+.menu {
+    height: max-content;
+}
+
+.menu-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: max-content;
+}
+
+.menu-content li {
+    display: inline-block;
+    margin-left: 10px;
+}
+.menu-content li:first-child{
+    font-size: larger;
+    font-weight: 700;
+    margin-right: 30px;
+    margin-left: 0;
+}
+
+.content-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(341.3333px, 1fr));
+    grid-auto-rows: max-content;
+    background-color: black;
+}
+.content-grid > * {
+    background-color: white;
+    
+}
+
+.content-grid > *:first-child { grid-column: 1 / -1; }
+.content-grid > *:not(:first-child) { grid-column: span 1; }
+
+.sidebar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2ch;
+}
+
+.sidebar h1{
+    font-size: 90px;
+    width: min(100%, 50rem);
+    padding: 20px 0;
+    line-height: 90%;
+}
+
+.sidebar > :first-child {
+    flex-basis: 0;
+    flex-grow: 999;
+    min-inline-size: 50%;
+    border-radius: 15px;
+    border: 1px solid black;
+    padding: 30px 0;
+}
+
+.sidebar > :last-child {
+    flex-grow: 1;
+    flex-basis: 320px;
+    border-radius: 6px;
+    border: 1px solid black;
+    padding: 30px 0;
+}
+
+.sidebar>div ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: max(341.3333px, 50%);
+    padding: 10px 0;
+}
+.sidebar>div ul li:first-child{
+    display: inline-block;
+    background-image: linear-gradient(120deg, rgba(250, 227, 98, 0.801), rgba(253, 119, 86, 0.89));
+    padding: 5px 30px;
+    margin: 0 10px;
+    border-radius: 10px;
+
+}
+.sidebar>div ul li:last-child{
+    line-height: 2.2rem;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 3px 8px;
+    /* height: 2.5rem; */
+}
+.sidebar>div ul li:last-child a{
+    font-size: x-large;
+}
+
+
