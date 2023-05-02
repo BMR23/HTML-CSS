@@ -7,7 +7,7 @@ html{
 *{
     margin: 0;
     padding: 0;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 body{
     font-family: 'Open Sans', sans-serif;
@@ -26,12 +26,12 @@ h2{
 h3{
     font-size: 5rem;
 }
-main>section{
+main section{
     padding-top: 10vh;
     min-height: 95vh;
     margin: auto auto;
 }
-main>section>div{
+main section>div{
     width: 90%;
     min-height: 90%;
     margin: 0 auto;
@@ -73,10 +73,9 @@ main>section>div{
 .bg-color-white{
     width: 100%;
     height: max-content;
-    padding-bottom: 10%;
 }
 .bg-color-white .content-1{
-    max-width: 60rem;
+    max-width: 70ch;
     text-align: center;
 }
 
@@ -139,6 +138,7 @@ main>section>div{
 .bg-color-white .content-2{
     text-align: center;
     height: max-content;
+    padding-bottom: 12%;
 }
 .grid-two{
     display: grid;
@@ -174,8 +174,11 @@ main>section>div{
 /* grid-three */
 
 /* Pricing */
+#pricing{
+    padding-bottom: 10%;
+}
 .bg-color-white .content-3{
-    max-width: 60rem;
+    max-width: 70ch;
     text-align: center;
 }
 
@@ -213,17 +216,45 @@ main>section>div{
 .bg-color .content-4 .form-group button{
     background-color: inherit;
     font-size: 3rem;
-    padding: 10px;
     margin-bottom: 4rem;
+    padding: 10px;
     color: white;
     border: 5px solid white;
     transition: ease-in-out 0.5s;
+    width: 170px;
 }
+
 .bg-color .content-4 .form-group button:hover{
     cursor: pointer;
     color: #0A1128;
     background-color: white;
 }
+.c-loader{
+    animation: is-rotating 1s infinite;
+    /* background: linear-gradient(white, white) padding-box, linear-gradient(to top, blue ,rgba(0, 0, 0, 0.116), black) border-box; */
+    border: 6px solid #0A1128;
+    border-radius: 50%;
+    border-top-color: white;
+    /*border-left-color: rgb(51, 50, 50);
+    border-bottom-color: rgb(121, 117, 117); */
+    height: 15px;
+    width: 15px;
+    margin: 0 auto;
+}
+@keyframes is-rotating {
+    to {
+      transform: rotate(1turn);
+    }
+}
+
+html main .ocultar {
+    display: none !important;
+}
+html main .aparece {
+    display: block !important
+    ;
+}
+
 /* Contact */
 /* footer */
 footer{
@@ -272,5 +303,5 @@ footer p a:hover{
     right: 2rem;
     border: 0.1rem solid black;
     border-radius: 50%;
+    background-color: white;
 }
-
