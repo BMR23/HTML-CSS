@@ -199,6 +199,9 @@ main section>div{
     padding-top:30px;
     width:95%
 }
+.bg-color .content-4 .form-group:last-child{
+    padding-bottom: 1rem;
+}
 .bg-color .content-4 .form-group input{
     display: block;
     width: 100%;
@@ -214,7 +217,7 @@ main section>div{
     margin-top: 5px;
 }
 .bg-color .content-4 .form-group button{
-    background-color: inherit;
+    background-color: #0A1128;
     font-size: 3rem;
     margin-bottom: 4rem;
     padding: 15px 10px;
