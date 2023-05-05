@@ -1,6 +1,9 @@
 let menuCss = document.getElementById('menu')
 let fechaMenuCelular = document.getElementById('fechaMenuCelular')
+let mensagem = document.getElementById('mensagem')
+mensagem = mensagem.addEventListener('click', enviarMensagem)
 let contador = 0
+let click = 0
 
 function abrirMenu(){
     contador = 1
@@ -14,29 +17,35 @@ function fecharMenu(){
       fechaMenuCelular.style.display = 'none'
     }
   }
-function enviarMensagem(){
+  function enviarMensagem(){
+  
+  if (click === 0){
+    click ++
     var mensagemPadrao = document.querySelector('.mensagem-1')
     var cLoader = document.querySelector('.c-loader')
     var mensagemConcluido = document.querySelector('.concluido')
 
     mensagemPadrao.classList.remove('aparece')
-    mensagemPadrao.classList.toggle('ocultar')
+    mensagemPadrao.classList.add('ocultar')
     cLoader.classList.remove('ocultar')
-    cLoader.classList.toggle('aparece')
+    cLoader.classList.add('aparece')
 
     setTimeout(function(){
       cLoader.classList.remove('aparece')
-      cLoader.classList.toggle('ocultar')
+      cLoader.classList.add('ocultar')
     }, 3000)
 
     setTimeout(function(){
       mensagemConcluido.classList.remove('ocultar')
-      mensagemConcluido.classList.toggle('aparece')
+      mensagemConcluido.classList.add('aparece')
     }, 3000)
     setTimeout(function(){
       mensagemConcluido.classList.remove('aparece')
-      mensagemConcluido.classList.toggle('ocultar')
+      mensagemConcluido.classList.add('ocultar')
       mensagemPadrao.classList.remove('ocultar')
-    mensagemPadrao.classList.toggle('aparece')
+      mensagemPadrao.classList.add('aparece')
+      click = 0
     }, 6000)
+    
+  }
 }
