@@ -1,7 +1,12 @@
 let menuCss = document.getElementById('menu')
 let fechaMenuCelular = document.getElementById('fechaMenuCelular')
 let mensagem = document.getElementById('mensagem')
-mensagem = mensagem.addEventListener('click', enviarMensagem)
+    mensagem = mensagem.addEventListener('click', enviarMensagem)
+let links = document.getElementsByName('a');
+for(let index in links){
+  links.index.addEventListener('press', (e)=> links.index.style.color = 'inherit')
+}
+
 let contador = 0
 let click = 0
 
@@ -46,6 +51,5 @@ function fecharMenu(){
       mensagemPadrao.classList.add('aparece')
       click = 0
     }, 6000)
-    
   }
 }
