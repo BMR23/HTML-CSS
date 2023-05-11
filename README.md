@@ -12,11 +12,11 @@ Projects and some of my studies on web development.
 <p><a href="https://bmr23.github.io/HTML-CSS/projetos/cordel" color="black">Click here</a></p>
 
 
-### Android Project 
+<!-- ### Android Project 
  
 ![Photo of android project](projetos/android/imagens/demonstracao/foto-android.png)
 <p><a href="https://bmr23.github.io/HTML-CSS/projetos/android" color="black">Click here</a></p>
-
+ -->
 
 ## 💾 Clone the repository:
 - Clone by Git: (_For this step you need Git installed_)
