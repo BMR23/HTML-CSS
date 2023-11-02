@@ -26,12 +26,12 @@
 
 </head>
 
-<body>
+<body id="body">
   <div onclick="abrirMenu()" id="abreMenuCelular"></div>
-  <div onclick="fecharMenu()" id="fechaMenuCelular"></div>
+  <div onclick="fecharMenu(event)" id="fechaMenuCelular"></div>
 
-  <aside class="menu" id="menu">
-    <nav onclick="fecharMenu()">
+  <aside class="menu" id="menu" onclick="fecharMenu(event)">
+    <nav>
       <h1><a href="#intro">LOGO</a></h1>
       <ul>
         <li><a href="#intro">intro</a></li>

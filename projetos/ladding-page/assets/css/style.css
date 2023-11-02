@@ -12,6 +12,9 @@ html{
 body{
     font-family: 'Open Sans', sans-serif;
 }
+.no-scroll {
+    overflow-y: hidden;
+}
 h1,h2,h3{
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
