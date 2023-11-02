@@ -264,8 +264,7 @@ footer{
     margin: 10px auto;
 }
 footer p {
-    width: 100%;
-    max-width: 500px;
+    width: 80%;
     text-align: center;
     margin: 0 auto;
     font-size: 1.6rem;
